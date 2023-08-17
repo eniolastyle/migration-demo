@@ -12,7 +12,7 @@ resource "spacelift_stack" "getting_started" {
   branch            = "main"
   name              = "getting-started"
   project_root      = ""
-  repository        = ""
+  repository        = "tfc-getting-started"
   terraform_version = "1.5.0"
 
   # 8< --------------------------------------------------------------
